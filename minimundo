@@ -1,0 +1,20 @@
+User: code, name, email, password
+Expense: code, type[], value, payment_method, date
+Income: code, type[], source[], value, institution, date 
+Investment: code, type[], value, institution, date
+
+Below are the specifications for the FCS (v1.0) mini-world. The FCS (Fincancial Control System) manages the entire transaction flow of a user. 
+
+Each user is identified by a code and also includes the name, email and password.
+
+Each expense is identified by a code and also includes the type, value, payment method and date.
+
+Each income is identified by a code and also includes the type, source, value, institution and date.
+
+Each investment is identified by a code and also includes the type, value, institution and date. 
+
+Each user can record multiple expenses and an expense can be recorded by only one user.
+
+Each user can receive multiple incomes and an income can be received by only one user.
+
+Each user can make multiple investments and an investment can me made by only one user.
